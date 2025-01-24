@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    android:background="#ffffff">
+
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_forward"
+        android:text="Country &amp; Region"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="  Search for a country"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:inputType="text"
+        android:background="#edf0ee"
+        android:drawableLeft="@drawable/ic_search"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <!-- Scrollable List -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0dp" />
+    </ScrollView>
+</LinearLayout>

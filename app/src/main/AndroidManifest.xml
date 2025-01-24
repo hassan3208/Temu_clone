@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hassan.temu_clone_2"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/resize"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/resize"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Temu_clone_2"
+        tools:targetApi="31">
+        <activity
+            android:name=".currency"
+            android:exported="false"
+            android:theme="@style/Theme.Temu_clone_2" />
+        <activity
+            android:name=".countries"
+            android:exported="false"
+            android:theme="@style/Theme.Temu_clone_2" />
+        <activity
+            android:name=".settings_next"
+            android:exported="false"
+            android:theme="@style/Theme.Temu_clone_2" />
+
+        <activity android:name=".Detail_item" />
+
+
+        <activity
+            android:name=".login_page"
+            android:exported="true"
+            android:theme="@style/Theme.Temu_clone_2" />
+        <activity
+            android:name=".splash"
+            android:exported="true"> <!-- Use a dedicated theme if needed -->
+            <intent-filter>
+
+                <!-- Set as the launcher activity -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Home Activity -->
+        <activity
+            android:name=".home"
+            android:exported="false"
+            tools:ignore="Instantiatable" /> <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Temu_clone_2" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

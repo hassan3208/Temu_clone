@@ -1,0 +1,26 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <!-- Image/Text view -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:background="@drawable/sales_cover" />
+
+        <!-- RecyclerView to replace GridLayout -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerView"
+            android:layout_margin="16dp"
+            android:background="#F5F5F5" />
+    </LinearLayout>
+</ScrollView>

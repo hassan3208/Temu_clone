@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1021497971721",
+    "firebase_url": "https://temu-clone-121db-default-rtdb.firebaseio.com",
+    "project_id": "temu-clone-121db",
+    "storage_bucket": "temu-clone-121db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021497971721:android:1af5d73bb8e138869554d8",
+        "android_client_info": {
+          "package_name": "com.hassan.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021497971721-fld0vnpv49229et63bn0tcvpscelnt17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzjVR6XQO00Gb4ZEBKvLUGEIHJMHkH1n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021497971721-fld0vnpv49229et63bn0tcvpscelnt17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021497971721:android:6e602099c37977dd9554d8",
+        "android_client_info": {
+          "package_name": "com.hassan.temu_clone_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021497971721-fld0vnpv49229et63bn0tcvpscelnt17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzjVR6XQO00Gb4ZEBKvLUGEIHJMHkH1n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021497971721-fld0vnpv49229et63bn0tcvpscelnt17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

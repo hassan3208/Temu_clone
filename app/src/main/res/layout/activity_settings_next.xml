@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f7f2"
+    tools:context=".You">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:drawableEnd="@drawable/ic_forward"
+        android:text="   Sign in/Register"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="0dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:onClick="go_to_login"
+        android:id="@+id/sign_in"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#e0e0e0" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/country"
+        android:background="#ffffff"
+        android:text="   Country &amp; Region"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Language                                                                 English"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/currency"
+        android:background="#ffffff"
+        android:text="   Currency"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Credit Balance"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Notification"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Privacy"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Permission"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Safety Center"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   About this App"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Legal Terms &amp; Policies"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:text="   Share this App"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/ic_forward"
+        android:paddingStart="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0" />
+
+
+
+
+</LinearLayout>
