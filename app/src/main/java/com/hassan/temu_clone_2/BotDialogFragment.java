@@ -24,7 +24,7 @@ public class BotDialogFragment extends DialogFragment {
         Button sendButton = view.findViewById(R.id.buttonSend);
         TextView botResponse = view.findViewById(R.id.textViewBotResponse);
 
-        dialogflowBot = new DialogflowBot(getContext(), "temu-clone"); // Replace with your project ID
+        dialogflowBot = new DialogflowBot(getContext(), "PROJECT ID"); // Replace with your project ID
 
         sendButton.setOnClickListener(v -> {
             String message = userInput.getText().toString();
